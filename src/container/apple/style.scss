@@ -63,7 +63,7 @@
   gap: s.space(5);
   text-align: center;
   align-content: center;
-  max-width: 360px;
+  max-width: 380px;
 }
 
 .product__title {
@@ -117,11 +117,11 @@
 
   @media all and (width < s.screen('laptop')) {
     background-size: 70%;
-    max-height: 600px;
+    max-height: 550px;
   }
 
   @media all and (width < s.screen('tablet')) {
-    background-size: 100%;
+    background-size: 85%;
     max-height: 550px;
   }
   .product__title {
@@ -137,7 +137,6 @@
   .product__description {
     color: s.color('background');
   }
-  // background-color: #000;
 }
 
 .product--top {
