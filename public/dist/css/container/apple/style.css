@@ -227,9 +227,11 @@
   align-content: flex-start;
 }
 
+.product--bottom {
+  background-position: top;
+}
 .product--bottom .product__content {
   align-content: flex-end;
-  background-position: top;
 }
 
 .product--light .product__title,
@@ -298,7 +300,7 @@
     grid-template-columns: repeat(3, 1fr);
   }
 }
-@media all and (width < 1000px) {
+@media all and (width < 620px) {
   .footer__content {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -320,12 +322,14 @@
 .footer__title {
   color: #1d1d1d;
   font-weight: 600;
+  font-size: 12px;
 }
 
 .footer__link {
   transition: opacity 0.7s;
   cursor: pointer;
   color: #424245;
+  font-size: 12px;
 }
 .footer__link:hover {
   opacity: 0.7;
