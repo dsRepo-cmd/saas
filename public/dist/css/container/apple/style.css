@@ -131,7 +131,7 @@
   gap: 20px;
   text-align: center;
   align-content: center;
-  max-width: 360px;
+  max-width: 380px;
 }
 
 .product__title {
@@ -202,12 +202,12 @@
 @media all and (width < 1260px) {
   .product-small {
     background-size: 70%;
-    max-height: 600px;
+    max-height: 550px;
   }
 }
 @media all and (width < 1000px) {
   .product-small {
-    background-size: 100%;
+    background-size: 85%;
     max-height: 550px;
   }
 }
