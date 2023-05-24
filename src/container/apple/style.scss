@@ -146,9 +146,9 @@
 }
 
 .product--bottom {
+  background-position: top;
   .product__content {
     align-content: flex-end;
-    background-position: top;
   }
 }
 
@@ -195,7 +195,7 @@ $productImage: (
   @media all and (width < s.screen('laptop')) {
     grid-template-columns: repeat(3, 1fr);
   }
-  @media all and (width < s.screen('tablet')) {
+  @media all and (width < s.screen('mobile')) {
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -216,9 +216,11 @@ $productImage: (
 .footer__title {
   color: s.color('fontDark');
   font-weight: 600;
+  font-size: s.size('small');
 }
 
 .footer__link {
   @include s.click;
   color: s.color('fontLightDark');
+  font-size: s.size('small');
 }
