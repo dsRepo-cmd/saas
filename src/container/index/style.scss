@@ -1,0 +1,21 @@
+@use '../../lib/service.scss' as s;
+.page {
+  padding: 40px;
+  margin: auto;
+  height: 100%;
+}
+
+.button {
+  font-size: s.size('default');
+  padding: 5px 20px;
+  @include s.click;
+  color: s.color('whiteLight');
+  background-color: s.color('primary');
+  border-radius: 5px;
+  position: absolute;
+}
+.button__icon {
+  position: relative;
+  bottom: 1px;
+  left: -4px;
+}
